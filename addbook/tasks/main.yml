@@ -1,0 +1,3 @@
+---
+- name: Run Docker Container
+  command: chdir=/home/edureka/Downloads/dockDeploy/ docker run -it -d -p 8085:8080 edureka/inclass
